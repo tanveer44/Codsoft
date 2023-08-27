@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: url('https://images.wallpaperscraft.com/image/single/stars_universe_space_118205_1920x1080.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  img {
+    width: 430px;
+    height: auto;
+    padding: 10px 20px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+  
+  header {
+    text-align: center;
+    background-color: #000203;
+    color: #fff;
+    padding: 20px 0;
+    animation: fadeIn 2s ease-in;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  #about {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color: rgb(135, 225, 241);
+    animation: slideUp 2s ease-out;
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  #about img {
+    max-width: 100%;
+  }
+  
+  #skills, #projects, #resume, #contact {
+    padding: 50px;
+    background-color: rgba(246, 231, 152, 0.9);
+    animation: fadeIn 2s ease-in;
+    justify-content: space-between;
+  }
+  
+  #skills h2, #projects h2, #resume h2, #contact h2 {
+    margin-top: 0;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  
+  .project {
+    margin-bottom: 30px;
+    animation: fadeIn 2s ease-in;
+  }
+  
+  .project img {
+    max-width: 100%;
+  }
+  
+  .project img:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0f1010;
+    color: #fff;
+    animation: fadeIn 2s ease-in;
+    font-weight:  bold;
+  }
